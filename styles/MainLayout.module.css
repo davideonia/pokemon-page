@@ -1,0 +1,46 @@
+.main{
+    padding: 0 20px;
+    padding-top: 20px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.letter-p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.word-okemon{
+    font-size: 25px;
+    font-weight: 600;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.logo span *, .logo * {
+    user-select: none;
+}
+.favoritos{
+    font-weight: bold;
+    font-size: 18px;
+    color: #323232;
+}
+.img-control{
+    user-select: none;
+}
+.container-favorites{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 115px);
+    align-items: center;
+    justify-content: center;
+}
